@@ -1,0 +1,61 @@
+.hils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background-color: #7e7e7e;
+}
+.firstLeft {
+  width: 35px;
+  height: 49px;
+  position: relative;
+  border: 1px solid #000;
+  z-index: 1;
+}
+.firstLeft > span {
+  height: 60px;
+  width: 15px;
+  background-color: #7e7e7e;
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  border-radius: 3px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  z-index: 2;
+}
+.firstCenter {
+  height: 49px;
+  width: 30px;
+  background-color: #5b5a5a;
+}
+.firstEnd {
+  height: 49px;
+  width: 45px;
+  background-color: #7e7e7e;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: 80px;
+}
+.second > span {
+  width: 10%;
+  height: 49px;
+  background-color: #262525;
+  border-radius: 6px;
+}
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}

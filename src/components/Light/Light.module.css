@@ -1,0 +1,20 @@
+.light {
+  width: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: blur(2px);
+
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.light > div {
+  width: 20%;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+}
+.last {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
